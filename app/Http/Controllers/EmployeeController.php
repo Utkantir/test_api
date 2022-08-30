@@ -15,13 +15,12 @@ class EmployeeController extends Controller
     public function store(EmployeeRequest $request)
         {
             $validated = $request->validated();
-            $newOne = Employee::create($validated);
-            return $newOne;
+            return Employee::create($validated);
         }
 
     public function show($id)
         {
-          return  $employee = Employee::findOrFail($id);
+          return Employee::findOrFail($id);
         }
 
 }

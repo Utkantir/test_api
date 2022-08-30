@@ -1,9 +1,0 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>It works!</title>
-</head>
-<body>
-  It works!
-</body>
-</html>
